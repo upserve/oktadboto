@@ -5,7 +5,7 @@ with open("README.rst", "r") as fh:
 
 setuptools.setup(
     name="oktadboto",
-    version="0.0.2",
+    version="0.0.3",
     author="Upserve",
     author_email="datascience@upserve.com",
     description="Boto3 RefreshableCredentials wrapping oktad system call",
