@@ -5,12 +5,13 @@ with open("README.rst", "r") as fh:
 
 setuptools.setup(
     name="oktadboto",
-    version="0.0.1",
+    version="0.0.2",
     author="Upserve",
     author_email="datascience@upserve.com",
     description="Boto3 RefreshableCredentials wrapping oktad system call",
     long_description=long_description,
     long_description_content_type="text/x-rst",
+    license="MIT",
     url="https://github.com/upserve/oktadboto",
     packages=setuptools.find_packages(),
     classifiers=[
