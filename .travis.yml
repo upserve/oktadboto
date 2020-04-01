@@ -1,0 +1,14 @@
+language: python
+python:
+  - '3.7'
+install:
+  - pip install -e .[dev]
+script: python -m unittest -v; flake8 .
+deploy:
+  provider: pypi
+  skip_existing: true
+  user: __token__
+  password:
+    secure: long_security_token
+  on:
+    branch: master
